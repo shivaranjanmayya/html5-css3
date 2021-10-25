@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+
+<body>
+    <figure>
+        <img src="./imgs/pexels.jpg" alt="No Preview" width="500px" height="400px">
+        <figcaption>
+            This is a flower.
+        </figcaption>
+    </figure>
+
+    <picture>
+        <source media="(min-width:480px)" srcset="
+        ./imgs/pexels-photo-1133957.jpg 480w, 
+        ./imgs/pexels-photo.jpg 800w,
+        ./imgs/pexels.jpg 1092w" />
+        <img src="./imgs/pexels.jpg" alt="No preview" width="500px" height="400px" />
+    </picture>
+    
+  
+</body>
+
+</html>
