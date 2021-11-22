@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+</head>
+<body>
+    <form>
+        <div>
+            <h1>Small Quiz</h1>
+            <hr/>
+        </div>
+            <p>
+                1. Which is the tag is used for unnumbered list?
+            </p>
+            <input type="radio" name="first" value="ordered" id="ordered"/>
+            <label for="ordered">Ordered list</label>
+            <input type="radio" name="first" value="unordered" id="unordered"/>
+            <label for="unordered">Unordered list</label>
+            <input type="radio" name="first" value="description" id="description"/>
+            <label for="description">Description List</label>
+        </div>
+        <div>
+            <p>2. What is the root tag of html?</p>
+            <input type="text" name="second"/>
+        </div>
+        <div>
+            <p>3. Where should document type tag should be placed?</p>
+       <select name="third">
+       <option value="top"> Top of the HTML doc</option>
+       <option value="bottom"> Bottom of the HTML doc</option>
+       </select>
+        </div>
+        <div>
+            <p>4. What is HTML?</p>
+            <textarea name="fourth"></textarea>
+        </div>
+        <div>
+            <p>5. How many lists does html has?</p>
+            <input type="checkbox" name="fifth" value="order" id="order"/>
+            <label for="order">Ordered list</label>
+            <input type="checkbox" name="fifth" value="unorder" id="unorder"/>
+            <label for="unorder">Unordered list</label>
+            <input type="checkbox" name="fifth" value="descr" id="descr"/>
+            <label for="descr">Description list</label>
+        </div>
+        <div>
+            <h1> Student Info</h1>
+            <hr/>
+            <label for ="name">Name : </label>
+            <input type="text" name="name" id="name"/>
+            <label for ="age">Age : </label>
+            <input type="Number" name="age" id="age"/>
+            <label for ="email">Email : </label>
+            <input type="email" name="email" id="email"/>
+        </div>
+        <br>
+        <button type="submit">Submit Data</button>
+    </form>
+    
+</body>
+</html>
